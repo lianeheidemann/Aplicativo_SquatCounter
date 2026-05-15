@@ -119,9 +119,9 @@ Adicione aqui seu GIF ou vídeo:
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido para a disciplina de  
-**Laboratório de Programação Mobile**  
+Nome: Liane Heidemann
 Curso: Ciência da Computação
+Disciplina: **Laboratório de Programação Mobile**  
 
 
 
