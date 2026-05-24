@@ -26,25 +26,25 @@ O usuário define a quantidade de repetições por série e o número total de s
 
 ## 📱 Funcionalidades
 
-### ✔ Configuração do treino
+###  Configuração do treino
 - Definição de repetições por série
 - Definição de número de séries
 
-### ✔ Detecção por sensores
+###  Detecção por sensores
 - Uso do acelerômetro via `sensors_plus`
 - Detecção de movimento com base em variação nos eixos X, Y e Z
 
-### ✔ Contador automático
+###  Contador automático
 - Incremento de repetições com base no movimento
 - Controle automático de séries
 - Finalização do treino ao atingir a meta
 
-### ✔ Progresso em tempo real
+###  Progresso em tempo real
 - Série atual
 - Repetições atuais
 - Status do treino
 
-### ✔ Finalização do treino
+###  Finalização do treino
 - Exibe mensagem de conclusão
 - Opção de reiniciar treino
 
