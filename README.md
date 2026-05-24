@@ -115,12 +115,7 @@ lib/
 
 ---
 
-## 👨‍💻 Autor
-
-Nome: Liane Heidemann
-Projeto desenvolvido para a disciplina de  
-**Laboratório de Programação Mobile**  
-Curso: Ciência da Computação
+## 👩🏻‍💻 Programador: Liane Heidemann
 
 
 
