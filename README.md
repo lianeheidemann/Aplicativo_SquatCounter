@@ -1,6 +1,6 @@
 # 🏋️ Squat Counter
 
-Aplicativo mobile desenvolvido em Flutter para a disciplina de **Laboratório de Programação Mobile (Ciência da Computação)**.
+Aplicativo mobile desenvolvido em Flutter
 
 ## 📌 Objetivo
 
@@ -21,47 +21,6 @@ O usuário define a quantidade de repetições por série e o número total de s
 - sensors_plus (acelerômetro)  
 - Android SDK 36.1.0  
 - VS Code + Android Studio (emulação)
-
----
-
-## 📱 Funcionalidades
-
-###  Configuração do treino
-- Definição de repetições por série
-- Definição de número de séries
-
-###  Detecção por sensores
-- Uso do acelerômetro via `sensors_plus`
-- Detecção de movimento com base em variação nos eixos X, Y e Z
-
-###  Contador automático
-- Incremento de repetições com base no movimento
-- Controle automático de séries
-- Finalização do treino ao atingir a meta
-
-###  Progresso em tempo real
-- Série atual
-- Repetições atuais
-- Status do treino
-
-###  Finalização do treino
-- Exibe mensagem de conclusão
-- Opção de reiniciar treino
-
----
-
-## 🧠 Lógica dos sensores
-
-O app detecta movimento quando há variação significativa nos eixos:
-
-```dart
-final movementDetected =
-    x.abs() > 12 ||
-    y.abs() > 12 ||
-    z.abs() > 12;
-```
-
-Um cooldown de 1.5s evita múltiplas contagens para o mesmo movimento.
 
 ---
 
@@ -96,16 +55,6 @@ lib/
 4. Repetições são contabilizadas automaticamente  
 5. Séries são controladas pelo sistema  
 6. Treino finaliza ao atingir meta  
-
----
-
-## 📌 Observações técnicas
-
-- Uso de `StreamSubscription` para leitura dos sensores  
-- Controle de estado manual (sem Provider)  
-- Arquitetura modular simples por features  
-- Detecção aproximada de movimento físico  
-- Interface responsiva com Material 3  
 
 ---
 
