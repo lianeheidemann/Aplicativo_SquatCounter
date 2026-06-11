@@ -15,7 +15,7 @@ O usuário define a quantidade de repetições por série e o número total de s
 
 ---
 
-## ⚙️ Tecnologias utilizadas
+## Tecnologias utilizadas
 
 - Flutter 3.41.4  
 - Dart  
@@ -25,7 +25,7 @@ O usuário define a quantidade de repetições por série e o número total de s
 
 ---
 
-## 🧩 Estrutura do projeto
+## Estrutura do projeto
 
 ```
 lib/
