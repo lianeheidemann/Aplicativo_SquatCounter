@@ -1,8 +1,9 @@
-# 🏋️ Squat Counter
+# Squat Counter App
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-Aplicativo mobile desenvolvido em Flutter
-
-## 📌 Objetivo
+## Aplicativo mobile desenvolvido em Flutter
 
 O aplicativo **Squat Counter** utiliza sensores do smartphone (acelerômetro) para detectar movimentos de agachamento, contabilizando automaticamente:
 
