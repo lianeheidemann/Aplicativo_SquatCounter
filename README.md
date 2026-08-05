@@ -1,33 +1,34 @@
 # Squat Counter App
+
 ![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-## Aplicativo mobile desenvolvido em Flutter
+## Flutter Mobile Application
 
-O aplicativo **Squat Counter** utiliza sensores do smartphone (acelerômetro) para detectar movimentos de agachamento, contabilizando automaticamente:
+**Squat Counter** uses the smartphone accelerometer to detect squat movements and automatically track:
 
-- Repetições
-- Séries
-- Progresso do treino
+- Repetitions
+- Sets
+- Workout progress
 
-O usuário define a quantidade de repetições por série e o número total de séries.
-
----
-
-## Tecnologias utilizadas
-
-- Flutter 3.41.4  
-- Dart  
-- sensors_plus (acelerômetro)  
-- Android SDK 36.1.0  
-- VS Code + Android Studio (emulação)
+Users configure the number of repetitions per set and the total number of sets.
 
 ---
 
-## Estrutura do projeto
+## Technologies
 
-```
+- Flutter 3.41.4
+- Dart
+- sensors_plus (accelerometer)
+- Android SDK 36.1.0
+- VS Code and Android Studio for emulation
+
+---
+
+## Project Structure
+
+```text
 lib/
  ├── core/
  │   ├── services/sensor_service.dart
@@ -48,25 +49,17 @@ lib/
 
 ---
 
-## Fluxo do app
+## Application Flow
 
-1. Usuário configura treino  
-2. Inicia sensores  
-3. App detecta movimento via acelerômetro  
-4. Repetições são contabilizadas automaticamente  
-5. Séries são controladas pelo sistema  
-6. Treino finaliza ao atingir meta  
+1. The user configures the workout.
+2. The application starts the sensors.
+3. Movement is detected through the accelerometer.
+4. Repetitions are counted automatically.
+5. Sets are tracked by the system.
+6. The workout ends when the goal is reached.
 
 ---
 
-## Demonstração
+## Demonstration
 
-<img width="35%" src="https://github.com/user-attachments/assets/0007261c-f7ac-48e4-80b8-3c0322c9f783" />
-
-
-
-
-
-
-
-
+<img width="35%" src="https://github.com/user-attachments/assets/0007261c-f7ac-48e4-80b8-3c0322c9f783" alt="Squat Counter App demonstration" />
